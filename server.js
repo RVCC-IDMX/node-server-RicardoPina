@@ -1,11 +1,9 @@
-const { appendFile } = require('fs');
+const { unlink } = require('fs');
 
-const newContent = '\nThis is some new text';
-
-appendFile('hi.txt', newContent, (err) => {
+unlink('hello.txt', (err) => {
   if (err) {
     console.log(err);
     return;
   }
-  console.log('Content written!');
+  console.log('File deleted!');
 });
