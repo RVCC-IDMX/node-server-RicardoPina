@@ -18,8 +18,9 @@ const server = http.createServer((req, res) => {
       res.statusCode = 200;
       break;
     default:
-      res.setHeader('Location', '/')
-      res.statusCode = 301;
+      // res.setHeader('Location', '/');
+      path += '404.html';
+      res.statusCode = 404;
       break;
   }
 
