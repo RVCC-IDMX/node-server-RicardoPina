@@ -13,7 +13,6 @@
   "keywords": [],
   "author": "Ricardo Pina <pinazelaya@gmail.com> (https://github.com/RicardoPina)",
   "license": "MIT",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/RVCC-IDMX/node-server-RicardoPina/issues"
   },
