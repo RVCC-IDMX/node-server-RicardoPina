@@ -2,7 +2,7 @@
   "name": "server-ricardopina",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,7 @@
   "keywords": [],
   "author": "Ricardo Pina <pinazelaya@gmail.com> (https://github.com/RicardoPina)",
   "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/RVCC-IDMX/node-server-RicardoPina/issues"
   },
